@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.example.librarydb.entity.BookMappingTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.020 s <<< FAILURE! -- in com.example.librarydb.entity.BookMappingTest
+com.example.librarydb.entity.BookMappingTest.testPersistAndFindBook -- Time elapsed: 0.010 s <<< ERROR!
+[ObjectDB 2.9.3] javax.persistence.PersistenceException
+Attempt to obtain a connection from a closed EntityManagerFactory (error 511)
+	at com.objectdb.jpa.EMF.createEntityManager(EMF.java:146)
+	at com.example.librarydb.entity.BookMappingTest.testPersistAndFindBook(BookMappingTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: com.objectdb.o.UserException: Attempt to obtain a connection from a closed EntityManagerFactory
+	at com.objectdb.o.MSG.a(MSG.java:64)
+	at com.objectdb.o.OMF.x(OMF.java:706)
+	at com.objectdb.jpa.EMF.createEntityManager(EMF.java:143)
+	... 4 more
+

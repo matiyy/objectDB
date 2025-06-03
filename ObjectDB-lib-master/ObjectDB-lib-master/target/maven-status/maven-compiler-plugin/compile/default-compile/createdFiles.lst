@@ -1,0 +1,8 @@
+com\example\librarydb\ui\BookFormPanel.class
+com\example\librarydb\service\DataGenerator.class
+com\example\librarydb\ui\BookListPanel.class
+com\example\librarydb\entity\Book.class
+com\example\librarydb\repository\BookRepository.class
+com\example\librarydb\service\BookService.class
+com\example\librarydb\config\JPAConfig.class
+com\example\librarydb\ui\MainWindow.class
